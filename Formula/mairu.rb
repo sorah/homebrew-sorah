@@ -11,6 +11,12 @@ class Mairu < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/sorah/homebrew-sorah/releases/download/mairu-0.8.0"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "dca43ac3f1f571912e4fd1a93898a5231305f9961088326cb620dcdbdb78c995"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "98684bc10da156c4fbfd7aa155d966c4fc693c058feae25b369d9d9a5a034050"
+  end
+
   depends_on "protobuf" => :build
   depends_on "rust" => :build
 
