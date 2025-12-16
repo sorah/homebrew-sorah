@@ -1,8 +1,8 @@
 class Mairu < Formula
   desc "AWS on-memory credentials agent"
   homepage "https://github.com/sorah/mairu"
-  url "https://github.com/sorah/mairu/archive/refs/tags/v0.9.0.tar.gz"
-  sha256 "27c08a83c0d4e73a2f18e503ebf37855e65800e228ea13f028281938e1422c2e"
+  url "https://github.com/sorah/mairu/archive/refs/tags/v0.10.0.tar.gz"
+  sha256 "2def6f3073ce4ed8bae2131aa1a3a2f896330a84ad695be6afd1dc65c8d7b8f4"
   license "Apache-2.0"
   head "https://github.com/sorah/mairu.git", branch: "main"
 
