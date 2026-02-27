@@ -13,8 +13,8 @@ class Mairu < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/sorah/sorah"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "aaf6ff64c9124341861b29679f04f032fd59d9e2f85d9de3ebc5088d88c6778d"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "2c3ede78e2256cf0527fd1671a27d9a7333cfa7f9275c7475525adf2f52ede65"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "bd7d04415b5335f1ff57670d8f57825d2b27a0fece1b0081f29700c4120beb21"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "c42f4668829c3e4433b569ad50952505abe3d568250f00a60b44b8f0d18f9b02"
   end
 
   depends_on "protobuf" => :build
