@@ -25,4 +25,8 @@ class Mairu < Formula
   def install
     system "cargo", "install", *std_cargo_args
   end
+
+  test do
+    assert_match version.to_s, shell_output("#{bin}/mairu --version")
+  end
 end
